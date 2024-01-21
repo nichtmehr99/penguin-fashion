@@ -24,10 +24,10 @@
     </style>
   </head>
   <body>
-    <header class="bg-[#FFFBF0] px-32 py-10">
+    <header class="bg-[#FFFBF0] p-3 lg:px-32 lg:py-10">
       <section>
         <!-- nav section -->
-        <nav class="flex justify-between items-center">
+        <nav class="flex md:flex-col lg:flex-row lg:justify-between items-center">
           <div>
             <img src="./icons/logo.png" alt="" />
           </div>
@@ -45,24 +45,187 @@
       </section>
       <!-- banner section -->
       <section>
-        <div class="banner-container flex justify-between items-center py-10 ">
+        <div class="banner-container flex justify-between items-center py-10">
           <div class="banner-container-left">
-            <h2 class="font-bebas text-7xl font-normal uppercase">Be the Penguins <br> of Winter</h2>
-            <p class="font-roboto font font-normal text-base text-[#3E3E3E] ">
+            <h2 class="font-bebas text-7xl font-normal uppercase">
+              Be the Penguins <br />
+              of Winter
+            </h2>
+            <p class="font-roboto font font-normal text-base text-[#3E3E3E]">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <button class="text-white rounded-xl py-4 px-6 font-roboto text-base font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019]">Buy Now</button>
+            <button
+              class="text-white rounded-xl py-4 px-6 font-roboto text-base font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
+            >
+              Buy Now
+            </button>
           </div>
           <div class="banner-container-right">
-            <img src="./images/model.png" alt="">
+            <img src="./images/model.png" alt="" />
           </div>
         </div>
       </section>
     </header>
     <main>
-      <!-- main container -->
+      <!-- Jacket container -->
+      <section class="max-w-full mx-auto p-3 md:p-20 lg:px-32 lg:py-14 ">
+        <!-- Women Jacket Container -->
+        <div>
+          <h2 class="font-bebas text-5xl text-[#363958] font-normal">
+            W0Man Jacket
+          </h2>
+        </div>
+        <!-- item container -->
+        <div class="font-roboto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-14 py-14">
+          <!-- item - 1 -->
+          <div>
+            <div class="bg-[#F1F1F1] rounded-2xl p-6">
+              <img src="./images/jacket-1.png" alt="" />
+            </div>
+            <h3 class="text-[#363958] text-2xl font-bold py-3">
+              Yellow Coat Jacket
+            </h3>
+            <p class="font-roboto text-base font-normal py-2">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <!-- price and button container -->
+            <div class="flex gap-20 py-3">
+              <h2 class="text-[#FABE4C] text-4xl font-extrabold">$234</h2>
+              <button
+                class="text-white rounded-xl py-4 px-6 font-roboto text-base font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
+              >
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <!-- item - 2 -->
+          <div>
+            <div class="bg-[#F1F1F1] rounded-2xl p-6">
+              <img src="./images/jacket-2.png" alt="" />
+            </div>
+            <h3 class="text-[#363958] text-2xl font-bold py-3">
+              Ladies Jacket
+            </h3>
+            <p class="font-roboto text-base font-normal py-2">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <!-- price and button container -->
+            <div class="flex gap-20 py-3">
+              <h2 class="text-[#FABE4C] text-4xl font-extrabold">$234</h2>
+              <button
+                class="text-white rounded-xl py-4 px-6 font-roboto text-base font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
+              >
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <!-- item - 3 -->
+          <div>
+            <div class="bg-[#F1F1F1] rounded-2xl p-6">
+              <img src="./images/jacket-3.png" alt="" />
+            </div>
+            <h3 class="text-[#363958] text-2xl font-bold py-3">
+              Women Leather Jacket
+            </h3>
+            <p class="font-roboto text-base font-normal py-2">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <!-- price and button container -->
+            <div class="flex gap-20 py-3">
+              <h2 class="text-[#FABE4C] text-4xl font-extrabold">$234</h2>
+              <button
+                class="text-white rounded-xl py-4 px-6 font-roboto text-base font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
+              >
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="max-w-full mx-auto p-3 md:p-20 lg:px-32 lg:py-14 ">
+        <!-- Men Jacket Container -->
+        <div>
+          <h2 class="font-bebas text-5xl text-[#363958] font-normal">
+            Man Jacket
+          </h2>
+        </div>
+        <!-- item container -->
+        <div class="font-roboto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-14 py-14">
+          <!-- item - 4 -->
+          <div>
+            <div class="bg-[#F1F1F1] rounded-2xl p-6">
+              <img src="./images/jacket-4.png" alt="" />
+            </div>
+            <h3 class="text-[#363958] text-2xl font-bold py-3">
+              Snowboard Jacket Mens
+            </h3>
+            <p class="font-roboto text-base font-normal py-2">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <!-- price and button container -->
+            <div class="flex gap-20 py-3">
+              <h2 class="text-[#FABE4C] text-4xl font-extrabold">$234</h2>
+              <button
+                class="text-white rounded-xl py-4 px-6 font-roboto text-base font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
+              >
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <!-- item - 5 -->
+          <div>
+            <div class="bg-[#F1F1F1] rounded-2xl p-6">
+              <img src="./images/jacket-5.png" alt="" />
+            </div>
+            <h3 class="text-[#363958] text-2xl font-bold py-3">
+              Man Leather Jackets
+            </h3>
+            <p class="font-roboto text-base font-normal py-2">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <!-- price and button container -->
+            <div class="flex gap-20 py-3">
+              <h2 class="text-[#FABE4C] text-4xl font-extrabold">$234</h2>
+              <button
+                class="text-white rounded-xl py-4 px-6 font-roboto text-base font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
+              >
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <!-- item - 6 -->
+          <div>
+            <div class="bg-[#F1F1F1] rounded-2xl p-6">
+              <img src="./images/jacket-6.png" alt="" />
+            </div>
+            <h3 class="text-[#363958] text-2xl font-bold py-3">
+              Man Casual Jackets
+            </h3>
+            <p class="font-roboto text-base font-normal py-2">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <!-- price and button container -->
+            <div class="flex gap-20 py-3">
+              <h2 class="text-[#FABE4C] text-4xl font-extrabold">$234</h2>
+              <button
+                class="text-white rounded-xl py-4 px-6 font-roboto text-base font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
+              >
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
     </main>
+    
     <footer></footer>
   </body>
 </html>
